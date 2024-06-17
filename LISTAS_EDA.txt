@@ -1,0 +1,44 @@
+
+# Posibles problemas a resolver usando datos
+
+## 1. Planificador de Ruta Aérea
+
+Planificador de ruta aérea que optimice el viaje deseado, en función de múltiples factores como las conexiones aéreas entre ciudades, cantidad de aerolíneas que ofertan la conexión, y reduciendo la distancia terrestre a recorrer - teniendo en cuenta la distancia entre el aeropuerto y el centro de la ciudad, respectivamente. 
+
+Se podrían introducir preferencias de usuario como aerolíneas favoritas o escalas máximas. También se podrían añadir la opción de la ruta más ecológica, que reduzca al mínimo la huella de carbono del viaje. 
+
+
+## 2.  Sistema de selección de conexiones más seguras
+
+Sistema que ayude a los pasajeros a seleccionar conexiones más seguras, analizando incidentes aéreos de las distintas aerolíneas por tipo de incidente y aeropuerto. Se podrían tener en cuenta también datos históricos sobre el clima y condiciones de pista de cada aeropuerto, añadiendo predicción que sugiera la mejor época para volar a ciertos destinos.  Ejemplo: para ir a Londres se puede volar a distintos aeropuertos cercanos y desde ahí se recorre una distancia terrestre x. Pero los aeropuertos tienen diferentes condiciones climáticas. de pista, etc, que puede incidir en la seguridad de los mismos. 
+
+## 3. Sistema de oferta de asientos libres en vuelos privados
+
+Desarrollar un sistema que ofrezca asientos libres envueltos privados, a un precio correspondiente a la cuota parte del costo del vuelo, haciendo un uso más eficiente el transporte aéreo, reduciendo la huella de carbono, reduciendo el costo “hundido” de los vuelos privados, y el costo de transporte aéreo de los usuarios. 
+
+## 4. Predicción de demanda de vuelos
+
+Desarrollar un sistema para predecir la demanda de vuelos de diferentes rutas aéreas, que ayuden a las aerolíneas a ajustar sus ofertas y precios.  Se deberían integrar datos externos como eventos, feriados, etc. 
+ 
+
+# Posibles conjuntos de datos que quisiera utilizar 
+
+
+## 1. 
+
+Cantidad de pasajeros que utilizaron avión como medio de transporte en un determinado país o región, y en una determinada unidad de tiempo, con discriminación de aeropuerto de salida, llegada, aerolínea, tipo de aeronave, tiempo de vuelo, costo del pasaje., etc. 
+
+Se podrían incluir datos demográficos de los pasajeros para un análisis más detallado. 
+
+## 2. 
+
+Vuelos ofrecidos por aerolíneas, en un determinado país o región, con la cantidad de asientos ocupados, tipo de aeronave, distancia recorrida, si utilizaron o no aeropuerto de alternado, incidentes por tipo, clases del servicio, tarifas., etc. 
+
+## 3. 
+
+Cantidad de aeronaves en un país o región, discriminando si cuenta o no con habilitación de explotador comercial aéreo, tipo de aeronave, ubicación de aparcado, horas de vuelo promedio por unidad temporal, costos estimados de mantenimiento por hora de vuelo, cantidad de asientos de la aeronave, ocupación promedio por unidad de tiempo. También podrían incluir datos sobre la antigüedad y estado de la aeronave, entre otros. 
+
+## 4.
+
+Información sobre el tiempo y clima en una determinada región y en los últimos 20 años, incluyendo variables como temperatura, precipitación, vientos, condiciones de visibilidad, etc. 
+ 
